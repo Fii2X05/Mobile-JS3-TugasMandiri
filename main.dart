@@ -1,3 +1,4 @@
 void main() {
-  print("Aplikasi Kalkulator BMI");
+  print("Game Tebak Angka");
+  
 }
