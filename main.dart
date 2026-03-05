@@ -7,8 +7,10 @@ void main() {
   int tebakan = int.parse(stdin.readLineSync()!);
 
   if (tebakan == angkaRahasia) {
-    print("Tebakan benar!");
+    print("Benar!");
+  } else if (tebakan > angkaRahasia) {
+    print("Terlalu besar!");
   } else {
-    print("Tebakan salah!");
+    print("Terlalu kecil!");
   }
 }
